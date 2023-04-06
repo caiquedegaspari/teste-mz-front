@@ -1,7 +1,12 @@
 table, th, td {
+  margin: 20px;
   padding: 10px;
   border: 1px solid;
   border-collapse: collapse;
+}
+
+table {
+  width: 600px;
 }
 
 th {
@@ -10,4 +15,14 @@ th {
 
 td {
   font-size: 14px;
+}
+
+p, h2 {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.tableContainer {
+  display: flex;
+  flex-wrap: wrap;
 }
