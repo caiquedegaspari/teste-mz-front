@@ -28,7 +28,9 @@ export function UploadForm() {
   return (
       <div className="container">
         <form className="form" onSubmit={submit}>
-          <label htmlFor="salesFile">Arquivo do registro de vendas:</label>
+          <h2>
+            <label htmlFor="salesFile">Arquivo do registro de vendas:</label>
+          </h2>
           <input type="file" name="salesFile" accept=".txt" onChange={handleChange}/> <br /><br />
           <button type="submit">Enviar</button>
         </form>
