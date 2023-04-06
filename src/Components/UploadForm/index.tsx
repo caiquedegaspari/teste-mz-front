@@ -14,6 +14,7 @@ export function UploadForm() {
       if (files.length > 0) {
         const file = files[0]
         setFile(file)
+        toast.success('Arquivo adicionado, faça o upload')
       }
     }
   }
