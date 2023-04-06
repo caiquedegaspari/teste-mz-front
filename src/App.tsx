@@ -1,12 +1,13 @@
 import React from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Home } from './Pages/Home';
 
 
 function App() {
   return (
     <div>
-     <h1> Hello World</h1>
+     <Home />
      <ToastContainer />
     </div>
   );

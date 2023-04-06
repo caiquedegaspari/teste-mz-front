@@ -1,6 +1,6 @@
 
 export function UploadForm() {
   return (
-    <h1>Upload Form component</h1>
+    <h2>Upload Form component</h2>
   )
 }

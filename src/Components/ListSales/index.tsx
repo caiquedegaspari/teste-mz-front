@@ -1,6 +1,6 @@
 
 export function ListSales() {
   return (
-    <h1>List Sales component</h1>
+    <h2>List Sales component</h2>
   )
 }
