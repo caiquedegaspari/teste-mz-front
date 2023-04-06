@@ -7,3 +7,7 @@ table, th, td {
 th {
   background: #ddd;
 }
+
+td {
+  font-size: 14px;
+}
