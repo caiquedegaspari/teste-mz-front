@@ -11,7 +11,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #ddd;
+  background-color: #fcd0ac;
   padding: 10px;
   border-radius: 8px;
+  border: 2px solid #ff9634;
+}
+
+h2, input {
+  color: #4b4b4b;
 }
